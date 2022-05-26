@@ -1,18 +1,21 @@
 ---
 sidebar_label: 'Community'
-sidebar_position: 4
+sidebar_position: 7
 ---
 
 # Community
 
 We want to grow our community of wine and tech lovers!
 
-We want to build this project together with our customers and followers, and we believe we can only improve with the help of the community.
+We truly believe we can only improve with the help of the community.
 
 You can be part of our community by:
 
-> Joining our Telegram: it’s where our community gathers to ask questions, give us feedback and get in touch with our team
+ - Joining our Telegram: where the community gathers to ask questions, share feedback and get in touch with our team.
 
-> Following us on Instagram, Facebook and Twitter: It’s where we will share all the news and the announcements first
+ - Following us on Instagram, Facebook and Twitter: where we'll share our news and announcements.
 
-> Getting in touch with us: It’s the easiest way to make sure we get your message and will follow up soon
+ - Getting in touch with us: it’s the easiest way to make sure we get your message and follow up on it!
+
+
+Let's build and grow Metavini together!

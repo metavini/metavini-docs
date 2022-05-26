@@ -1,5 +1,5 @@
 
-:root {
+:root{
   --metavini-dark: #000000;
   --metavini-dark-gray: #222222;
   --metavini-gray: #666666;
@@ -50,10 +50,16 @@
   --ifm-heading-font-family: 'Roboto';
   --ifm-heading-font-weight: 300;
 
+  --ifm-avatar-photo-size: 4rem;
 
+  --aa-text-color-rgb: 0,0,0 !important;
+  --aa-input-border-color-rgb: 0,0,0 !important;
+  --aa-primary-color-rgb: 0,0,0 !important;
+  --aa-muted-color-rgb: 0,0,0 !important;
+  
 }
 
-html[data-theme='dark'] {
+html body[data-theme='dark'] {
   --ifm-color-primary: var(--metavini-red);
 
   --ifm-font-color-base-inverse:var(--font-color-white);
@@ -76,7 +82,13 @@ html[data-theme='dark'] {
   --ifm-breadcrumb-item-background-active:var(--metavini-dark-gray);
   --ifm-breadcrumb-color-active:var(--font-color-white);
 
-  --ifm-heading-color:var(--font-color-white);
+  --ifm-heading-color: var(--font-color-white);
+
+  --aa-text-color-rgb: 255,255,255;
+  --aa-input-border-color-rgb: 255,255,255;
+  --aa-primary-color-rgb: 255,255,255;
+  --aa-muted-color-rgb: 255,255,255;
+  --aa-background-color-rgb: 0,0,0;
 }
 
 .table-of-contents__link:hover,
@@ -265,15 +277,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background: none;
 }
 
-body .aa-Label svg{
-  color: var(--metavini-red);
-}
-
-body .aa-DetachedFormContainer{
-  background: var(--metavini-dark);
-}
-
-
 /* UTILITIES */
 .jcenter{
   justify-content: center;
@@ -290,14 +293,6 @@ body .hero__subtitle {
   font-size: 18px;
 }
 
-body h3{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 32px;
-  line-height: 24px;
-}
-
 /* BREADCRUMBS */
 body .breadcrumbs__link{
   padding: 0;
@@ -307,6 +302,10 @@ body .breadcrumbs__link{
   font-size: 14px;
   line-height: 19px;
   color:var(--font-color-light-gray);
+}
+
+body .breadcrumbs__item--active .breadcrumbs__link {
+  background: none;
 }
 
 body .breadcrumbs .breadcrumbs__item:first-child .breadcrumbs__link{
@@ -324,5 +323,4 @@ body .breadcrumbs .breadcrumbs__item:first-child:before{
 body .breadcrumbs__item:not(:last-child):after {
   margin: 0 14px;
 }
-
 

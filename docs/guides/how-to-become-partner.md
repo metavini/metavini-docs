@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Become a partner'
+sidebar_label: 'How to become a partner'
 sidebar_position: 1
 ---
 
@@ -26,8 +26,6 @@ If you want to help us evolve and be a part of the marketplace we are creating, 
 
 ### We already partnered up with:
 
-> genesis.studio
-
 > Vinimia
 
 > Adega Cooperativa Vidigueira
@@ -35,3 +33,5 @@ If you want to help us evolve and be a part of the marketplace we are creating, 
 > Quinta da Cheira
 
 > Manzwine
+
+> Tiago Cabaço

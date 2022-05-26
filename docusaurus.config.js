@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const config = {
   title: 'Metavini Docs',
-  tagline: 'Here you can find all info regarding Metavini',
+  tagline: 'Here you can find all the documentation about the Metavini ecosystem',
   url: 'https://docs.metavini.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -17,11 +17,11 @@ const config = {
   noIndex: false, // Defaults to `false`
   customFields: {
     metadataTitle: 'Metavini Docs',
-    metadataDescription: 'Here you can find all info regarding Metavini',
+    metadataDescription: 'Here you can find all the documentation about the Metavini ecosystem',
     customFooter: {
       logo: {
         alt: 'Metavini Docs',
-        description: 'A new decentralized ecosystem that connects wine producers,consumers and collectors.',
+        description: 'A new decentralized ecosystem that connects wine lovers and collectors to producers.',
         src: 'img/logos/logo-docs-main-full-white.svg',
         srcDark: 'img/logos/logo-docs-main-full-white.svg',
         href: '/',
@@ -78,6 +78,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'G-JYR8NEJETJ',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
       }),
     ],
   ],
@@ -108,7 +113,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'overview/welcome',
             position: 'right',
             label: 'Documentation',
           },
@@ -128,7 +133,7 @@ const config = {
               },
               {
                 label: 'Become a Partner',
-                to: '/guides/become-partner',
+                to: '/guides/how-to-become-partner',
               },
             ],
           },
