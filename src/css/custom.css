@@ -59,7 +59,7 @@
   
 }
 
-html body[data-theme='dark'] {
+[data-theme='dark'], body[data-theme='dark'], html body[data-theme='dark']{
   --ifm-color-primary: var(--metavini-red);
 
   --ifm-font-color-base-inverse:var(--font-color-white);
@@ -237,20 +237,28 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .navbar .navbar__link--active:after{
   content: '';
   border: 1px solid var(--font-color-red);
-  width: calc(100% - 33px);
+  width: calc(100% - 27px);
   position: absolute;
-  bottom: 0;
-  left: 16px;
+  bottom: 2px;
+  left: 1px;
+}
+
+.navbar__items--right{
+  padding-right:90px;
 }
 
 /* SEARCH */
 .navbar .navbar__items .dsla-search-wrapper{
   padding-right: 80px;
+  position: absolute;
+  right: 0;
+  top: 8px;
 }
 
 @media (max-width: 996px){
   .navbar .navbar__items .dsla-search-wrapper{
     padding-right: 0px;
+    position: unset;
   }
 }
 
@@ -275,6 +283,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .navbar .toggleButton_src-theme-ColorModeToggle-styles-module:hover{
   background: none;
+}
+
+.navbar__item{
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  padding-left: 0px !important;
+  padding-right: 24px !important;
 }
 
 /* UTILITIES */
@@ -324,3 +339,25 @@ body .breadcrumbs__item:not(:last-child):after {
   margin: 0 14px;
 }
 
+button[class*='toggleButton']:hover {
+  background: none !important;
+}
+
+/* Fix theme navbar bug */
+html[data-theme='dark'] body[data-theme='light'] .navbar__logo img[class*='themedImage--light']{
+  display: none;
+}
+
+html[data-theme='dark'] body[data-theme='light'] .navbar__logo img[class*='themedImage--dark']{
+  display: initial !important;
+}
+
+
+
+/* Blog align images center */
+article[itemprop="blogPost"] img{
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
