@@ -74,6 +74,8 @@ const config = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/metavini/metavini-docs/edit/main',
+          blogTitle: 'Blog',
+          blogDescription: 'Relevant updates for the Metavini ecosystem, including the release of new features and documentation, will be posted here.',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -171,10 +173,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      blog: {
-        blogTitle: 'Metavini Blog',
-        blogDescription: 'Relevant updates for the Metavini ecosystem, including the release of new features and documentation, will be posted on our blog',
       },
     }),
     plugins: [

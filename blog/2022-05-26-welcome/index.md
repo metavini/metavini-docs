@@ -19,6 +19,8 @@ The older guys pouring and tasting wine directly from kites, like wine scientist
 
 The beautiful wineries and farms I’d visit and which I was keen to explore, regardless of my father’s warnings to “stay close”.           
 
+<!--truncate-->
+
 Exploring and playing in what seemed infinite stretches of land, feeling the aroma of the vine.           
 
 The 5L bottles of wine we’d fill and bring back home. Buying cork stoppers and setting aside the bottles we were supposed to bring back the next time around.             
