@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Metaverse Overview'
 sidebar_position: 1
+image: /img/logos/logo-dark.png
 ---
 
 # Metaverse Overview

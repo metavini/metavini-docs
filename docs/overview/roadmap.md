@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Roadmap'
 sidebar_position: 6
+image: /img/logos/logo-dark.png
 ---
 
 # Roadmap

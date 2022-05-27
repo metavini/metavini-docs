@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Storage Facilities'
 sidebar_position: 4
+image: /img/logos/logo-dark.png
 ---
 
 # Storage Facilities

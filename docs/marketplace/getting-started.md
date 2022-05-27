@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Getting Started'
 sidebar_position: 1
+image: /img/logos/logo-dark.png
 ---
 
 # Getting Started

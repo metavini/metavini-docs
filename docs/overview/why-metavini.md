@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Why Metavini?'
 sidebar_position: 2
+image: /img/logos/logo-dark.png
 ---
 
 

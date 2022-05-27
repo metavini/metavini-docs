@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Community'
 sidebar_position: 7
+image: /img/logos/logo-dark.png
 ---
 
 # Community

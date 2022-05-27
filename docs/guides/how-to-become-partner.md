@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'How to become a partner'
 sidebar_position: 1
+image: /img/logos/logo-dark.png
 ---
 
 # How to become a Metavini partner

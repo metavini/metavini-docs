@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Trading Rewards'
 sidebar_position: 1
+image: /img/logos/logo-dark.png
 ---
 
 # Trading Rewards

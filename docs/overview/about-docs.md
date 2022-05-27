@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'About Docs'
 sidebar_position: 8
+image: /img/logos/logo-dark.png
 ---
 
 # Metavini Documentation

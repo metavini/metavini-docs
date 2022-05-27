@@ -172,6 +172,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      blog: {
+        blogTitle: 'Metavini Blog',
+        blogDescription: 'Relevant updates for the Metavini ecosystem, including the release of new features and documentation, will be posted on our blog',
+      },
     }),
     plugins: [
       [

@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Main Features'
 sidebar_position: 3
+image: /img/logos/logo-dark.png
 ---
 
 # Main Features

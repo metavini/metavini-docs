@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Delivery at Home'
 sidebar_position: 5
+image: /img/logos/logo-dark.png
 ---
 
 # Delivery at Home

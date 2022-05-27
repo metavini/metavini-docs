@@ -2,6 +2,7 @@
 slug: /glossary
 sidebar_label: 'Glossary'
 sidebar_position: 7
+image: /img/logos/logo-dark.png
 ---
 
 # Glossary

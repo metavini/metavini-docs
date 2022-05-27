@@ -1,6 +1,9 @@
 ---
 slug: welcome
 title: How Metavini was born
+description: The story about how Metavini was born
+image: ./vinha.jpg 
+keywords: [metavini, blog, welcome, born]
 authors: [octavio]
 tags: [metavini, welcome, docs, blog]
 ---

@@ -2,6 +2,7 @@
 slug: /faqs
 sidebar_label: 'FAQ'
 sidebar_position: 8
+image: /img/logos/logo-dark.png
 ---
 
 # FAQ

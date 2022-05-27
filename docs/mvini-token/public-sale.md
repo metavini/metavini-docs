@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Public Sale'
 sidebar_position: 2
+image: /img/logos/logo-dark.png
 ---
 
 # Public Sale - IPO
